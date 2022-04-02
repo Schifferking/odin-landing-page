@@ -20,12 +20,32 @@ ul {
     padding: 0;
 }
 
-li, .subtext {
+li, .subtext, .image-placeholder {
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .secondary-header {
     font-size: 48px;
+}
+
+.secondary-header, h3 {
     font-weight: 800;
+}
+
+.image-placeholder {
+    background-color: darkgray;
+}
+
+h3, .quote, .quote-author {
+    font-size: 36px;
+    color: #1f2937
+}
+
+.third-section {
+    background-color: #e5e7eb;
+}
+
+.quote, .quote-author {
+    font-style: italic;
 }
