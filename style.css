@@ -1,5 +1,7 @@
 body {
     font-family: "roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .first-section, .footer {
@@ -70,4 +72,10 @@ h3, .quote, .quote-author {
 
 .button-sign {
     border-color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
