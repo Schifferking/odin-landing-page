@@ -10,7 +10,7 @@ body {
     font-size: 24px;    
 }
 
-.header-logo, .secondary-header, button, .footer {
+.header-logo, .secondary-header, button, .sign-header, .footer {
     color: #f9faf8;
 }
 
@@ -20,7 +20,7 @@ ul {
     padding: 0;
 }
 
-li, .subtext, .image-placeholder {
+li, .subtext, .image-placeholder, .sign-content {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -28,7 +28,10 @@ li, .subtext, .image-placeholder {
 button {
     width: 75px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 10px;    
+}
+
+button, .container {
     background-color: #3882f6;
 }
 
@@ -46,6 +49,10 @@ button {
 
 .image-placeholder {
     background-color: darkgray;
+}
+
+.text {
+    color: darkgray;
 }
 
 h3, .quote, .quote-author {
