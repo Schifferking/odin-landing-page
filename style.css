@@ -1,14 +1,16 @@
 body {
+    margin: 0px;
     font-family: "roboto", sans-serif;
     display: flex;
     flex-direction: column;
 }
 
-.first-section, .footer {
+.header, .first-section, .footer {
     background-color: #1f2937;    
 }
 
 .header {
+    padding: 0px 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -34,6 +36,12 @@ li, .subtext, .image-placeholder, .sign-content {
     color: #e5e7eb;
 }
 
+.first-section {
+    padding: 75px 150px;
+    display: flex;
+    gap: 50px;
+}
+
 button {
     width: 75px;
     height: 30px;
@@ -45,11 +53,16 @@ button, .container {
 }
 
 .button-header {
+    width: 100px;
     border: none;
 }
 
 .secondary-header {
+    width: 40%;
     font-size: 48px;
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 10px;
 }
 
 .secondary-header, h3 {
@@ -57,7 +70,11 @@ button, .container {
 }
 
 .image-placeholder {
+    width: 60%;
     background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
