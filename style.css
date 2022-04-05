@@ -114,17 +114,26 @@ h3 {
     text-align: center;    
 }
 
-h3, .quote, .quote-author {
+h3, .quote {
     font-size: 36px;
-    color: #1f2937
+    color: #1f2937;
 }
 
 .third-section {
+    padding: 100px 425px;
     background-color: #e5e7eb;
 }
 
-.quote, .quote-author {
+.quote {
     font-style: italic;
+    text-align: justify;
+}
+
+.quote-author {    
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: 800;
+    text-align: end;
 }
 
 .button-sign {
