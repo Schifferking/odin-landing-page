@@ -43,8 +43,8 @@ li, .subtext, .image-placeholder, .sign-content {
 }
 
 button {
-    width: 75px;
-    height: 30px;
+    width: 140px;
+    height: 35px;
     border-radius: 10px;    
 }
 
@@ -53,9 +53,9 @@ button, .container {
 }
 
 .button-header {
-    width: 100px;
     border: none;
     text-align: center;
+    font-size: 16px;
 }
 
 .secondary-header {
@@ -136,11 +136,38 @@ h3, .quote {
     text-align: end;
 }
 
+.fourth-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1000px;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-header {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
 .button-sign {
+    border: 2px solid;
     border-color: #e5e7eb;
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .footer {
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
